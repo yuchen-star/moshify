@@ -634,12 +634,12 @@ a {
 
 .block--skewed-right {
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 90%);
-    padding-bottom: calc(--padding-vertical) + 4rem;
+    padding-bottom: calc(var(--padding-vertical) + 4rem);
 }
 
 .block--skewed-left {
     clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
-    padding-bottom: calc(--padding-vertical) + 4rem;
+    padding-bottom: calc(var(--padding-vertical) + 4rem);
 }
 
 .container {
